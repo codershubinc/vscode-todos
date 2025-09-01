@@ -1,0 +1,33 @@
+{
+    "name": "vscode-todos",
+    "displayName": "VSCode Todos",
+    "description": "A VS Code extension to manage todos.",
+    "version": "0.0.1",
+    "publisher": "codershubinc",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Productivity"
+    ],
+    "activationEvents": [
+        "onCommand:vscode-todos.start"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "vscode-todos.start",
+                "title": "Start VSCode Todos"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codershubinc/vscode-todos.git"
+    },
+    "bugs": {
+        "url": "https://github.com/codershubinc/vscode-todos/issues"
+    },
+    "homepage": "https://github.com/codershubinc/vscode-todos#readme"
+}
