@@ -34,7 +34,8 @@
         {
           "id": "todosView",
           "name": "Todos",
-          "when": "true"
+          "when": "true",
+          "icon": "media/todo-icon.svg"
         }
       ]
     },
